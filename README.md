@@ -49,3 +49,5 @@ The project have this order files:
 - The project can run tests in different browsers such as Firefox, Chromium, and WebKit. 
 
 - The project is set to retry failed test cases up to two times.
+
+- The project currently has pipelines that run the automation and generate test result reports.
