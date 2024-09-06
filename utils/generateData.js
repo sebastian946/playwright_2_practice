@@ -3,6 +3,12 @@ const{faker} = require('@faker-js/faker');
 export function name(){
     return faker.person.fullName();
 }
+export function username(){
+    return faker.internet.userName(faker.person.firstName(),faker.person.lastName());
+}
+export function password(){
+    return faker.internet.password();
+}
 export function country(){
     return faker.location.country();
 }

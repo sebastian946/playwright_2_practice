@@ -71,7 +71,6 @@ class CartPage{
     async validateAlert(){
         await this.showText();
         await this.clickOkButton();
-        //await expect(this.page).toHaveURL(/index.html/);
     }
 }
 

@@ -21,7 +21,7 @@ class HomePage{
 
     async randomElement(){
         const count = await this.products.count();
-        const randomNumber = Math.floor(Math.random() * (count - 0+1))+3;
+        const randomNumber = Math.floor(Math.random() * count);
         console.log(randomNumber);
         return randomNumber;
     }
